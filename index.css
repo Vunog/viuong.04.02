@@ -1,0 +1,26 @@
+nav#navTop{
+    width:  960px;/*Thiết lập chiều rộng cho menu */
+    margin: 0 auto;/*đặt menu luôn hiển thị giữa màn hình*/
+    background: 40px;/*thiếp lập chiều cao cho menu*/
+    height: 40px;/*thiết lập chiều cao cho menu */
+}
+nav#navTop ul{/*thiết lập cho tất cả thẻ UL nằm trong #navTop*/
+    list-style: none;/*bỏ style mặc định của ul li*/
+    padding: 0;/*thiết lập padding về 0*/
+    margin: 0;/*thiết lập margin về 0*/
+}
+nav#navTop ul li{
+    float: left; /*hiển thị li thẳng hàng theo chiều trái -> phải*/
+    border-right: solid 1px #fff; /*đặt border-right cho thẻ li*/
+}
+nav#navTop ul li a{
+        text-decoration: none;/*bỏ gạch chân thẻ a*/
+        display: block;/*thiết lập thẻ a hiển thị theo khối block*/
+        padding: 10px 30xpx;/*thiết lập padding trên dưới phải trái cho thẻ a*/
+}
+/*thiết lập khi thẻ a được hover hoặc nhận class là seletced */
+.selected,
+nav#navTop ul li a:hover{
+    background: red;/*đặt màu nền cho thẻ a*/
+    color: #fff;/*đặt màu chữ cho thẻ a*/
+}
